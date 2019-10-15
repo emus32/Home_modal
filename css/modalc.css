@@ -1,0 +1,131 @@
+body{
+    background-color: gray;
+}
+
+.contianer {
+    width: 100%;
+    background: #009dff;
+    display:flex;
+    justify-content: space-between;
+    align-items: right;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+} .main-nav li{
+    display: inline-block;
+    list-style: none; 
+    margin: 4px; 
+}
+.main-nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.dp{
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+        background: #ffffff;
+        margin-right: 20px;
+}
+.menulink{
+    display: flex;
+}
+.line .content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.line .content h4{
+    color: #f37f65;
+    }
+    .line .content hr{
+        opacity: 0.5;
+        }
+    
+.quote{
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        height: 300px;
+        border:1.8px solid #c5c7c9;
+        opacity: 0.6; 
+        border-radius: 5px;
+        margin:150px;
+}
+
+.quote-container {
+    width:1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box{
+    display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        width: 1000px;
+        height: 100px;
+        border:1.5px solid #c5c7c9;
+        opacity: 0.6; 
+        border-radius: 5px;
+        margin:50px;
+}
+.box-container {
+    width:1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    
+}
+.box p{
+        text-align: left;
+}
+.box{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 50px;
+
+}
+.send{
+        background-color:red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 25px;
+        border:1.5px solid #c5c7c9;
+        opacity: 0.6; 
+        border-radius: 5px;
+        margin:10px;
+}
+.send-container {
+    width:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color:white;
+    margin: 5px;
+}
