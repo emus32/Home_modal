@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: grey;
 }
 
 .contianer {
@@ -19,14 +19,14 @@ body{
     margin: 4px; 
 }
 .main-nav li a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
 .dp{
         width:40px;
         height:40px;
         border-radius: 50%;
-        background: #ffffff;
+        background: white;
         margin-right: 20px;
 }
 .menulink{
@@ -44,7 +44,7 @@ body{
         }
     
 .quote{
-        background-color: #ffffff;
+        background-color: white;
         display: flex;
         flex-direction: column;
         justify-content: center;
